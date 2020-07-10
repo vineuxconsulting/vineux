@@ -16,7 +16,8 @@ var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/13lSgjEafte8N
     body2.innerHTML = data.body2;
     body3.innerHTML = data.body3;
     body4.innerHTML = data.body4;
-      body5.innerHTML = data.body4;
+      body5.innerHTML = data.body5;
+      body6.innerHTML = data.body6;
     
  });
 }

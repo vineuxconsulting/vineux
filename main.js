@@ -22,6 +22,7 @@ var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/13lSgjEafte8N
       body8.innerHTML = data.body8;
       body9.innerHTML = data.body9;
       body10.innerHTML = data.body10;
+      body11.innerHTML = data.body11;
     
  });
 }

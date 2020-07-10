@@ -53,7 +53,28 @@
         <h4 id="body3"></h4>
         <p id="body4"></p>
       </div>
-     </div>
+     <div class="form" align="right">
+   
+        <style>
+          fieldset {
+  font-size:12px;
+  padding:10px;
+  width:350px;
+  line-height:1.8;}
+        </style>
+      
+     <form id="form" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/mbjavqvr" method="post">
+  <fieldset id="form-inputs">
+    <label for="full-name">Full Name</label><br>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required=""><br><br>
+    <label for="email-address">Email Address</label><br>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required=""><br><br>
+    <label for="message">Message</label><br>
+    <textarea rows="5" name="message" id="message"  required=""></textarea><br><br>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset> <br>
+  <input type="submit" value="Submit">
+</form>   
     </section>
 
   <!-- Start Section Two: Forms all the way -->

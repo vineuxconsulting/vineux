@@ -18,6 +18,10 @@ var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/13lSgjEafte8N
     body4.innerHTML = data.body4;
       body5.innerHTML = data.body5;
       body6.innerHTML = data.body6;
+      body7.innerHTML = data.body7;
+      body8.innerHTML = data.body8;
+      body9.innerHTML = data.body9;
+      body10.innerHTML = data.body10;
     
  });
 }

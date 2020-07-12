@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/logos.png"
+    />
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,600&display=swap" rel="stylesheet">
+    <title>Thank You</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+        text-decoration: none;
+        font-size: 11px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Start Banner -->
+    <header>
+      <div class="banner">
+        <img src="image/VC_Tic_Logo.png" alt="" class="logo" width="350" height="200"/>
+        <h1 id="header" class="banner-header"></h1>
+        <p id="header2" class="banner-paragraph">
+          
+        </p>
+        <div class="button-box">
+          <a href="https://vineuxconsulting.com/about.html"><button class="ios-button">About Us</button></a>
+          <a href="https://vineuxconsulting.com/services.html"><button class="mac-button">Services</button></a>
+          <a href="https://vineuxconsulting.com"><button class="linux-button">Home</button></a>
+        </div>
+      </div>
+    </header>
+
+    
+        
+    <script src="contact.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+  </body>
+</html>

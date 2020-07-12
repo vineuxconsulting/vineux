@@ -80,12 +80,22 @@
     <label for="message">Message</label><br>
     <textarea rows="5" name="message" id="message"  required=""></textarea><br><br>
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"><br><br><br><br><br>
+    <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+     <br>
     <input type="submit" value="Submit">
     <br>
   </fieldset> 
 </form>   
     </section>
 
+<script type="text/javascript">
+  var onloadCallback = function() {
+    alert("grecaptcha is ready!");
+  };
+</script>
+ <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+    async defer>
+</script>     
         
     <script src="contact.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>

@@ -228,7 +228,9 @@ fieldset {
   font-size:12px;
   padding:10px;
   width:250px;
-  line-height:1.8;}
+  line-height:1.8;
+  background:#c4beb7;
+}
 
 }
 

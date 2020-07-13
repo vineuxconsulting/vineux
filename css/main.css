@@ -229,13 +229,12 @@ fieldset {
   padding:10px;
   width:250px;
   line-height:1.8;
-  background:#c4beb7;
 }
 
 }
 
 input, select, textarea {
-background-color: #bae7e9;
+background-color: #ffffff;
 }
 
 .form label{float:left;}
